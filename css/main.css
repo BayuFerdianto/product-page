@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500;1,600;1,700&display=swap");
+#header img {
+  width: 30px;
+}
+#header b > span {
+  color: #2dd7a2;
+}
+#header b,
+#header span {
+  font-weight: 600;
+  color: #fff;
+  font-size: 1rem;
+}
+@media (min-width: 40em) {
+  #header b,
+  #header span {
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.4rem;
+  }
+}
+
+#navbar .navbar-nav li.nav-item {
+  font-size: 1rem;
+}
+#navbar .navbar-nav .me-6 {
+  margin-left: 3.3rem;
+}
+#navbar .navbar-nav .me-6:last-of-type {
+  margin-right: 3.3rem;
+}
+
+#hero .row > .col-lg-6:nth-child(1) h1,
+#hero .row > .col-lg-6:nth-child(1) p {
+  font-size: 1rem;
+}
+#hero .row > .col-lg-6:nth-child(1) p {
+  color: #2dd7a2;
+}
+#hero .row > .col-lg-6:nth-child(1) h2 {
+  font-size: 4em;
+  font-weight: 600;
+}
+#hero .row > .col-lg-6:nth-child(1) h2 > span {
+  color: #2dd7a2;
+}
+
+#main-left {
+  text-align: center;
+}
+@media (min-width: 62em) {
+  #main-left {
+    flex: 2;
+    order: 1;
+    text-align: left;
+  }
+}
+@media (max-width: 39.9375em) {
+  #main-left {
+    font-size: 0.625em;
+  }
+}
+
+#main-right > .hero__image {
+  background-image: url("../img/Group6.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 17.5rem;
+}
+@media (min-width: 40em) {
+  #main-right > .hero__image {
+    min-height: 30rem;
+    background-position: center 10%;
+    background-size: 90%;
+  }
+}
+@media (min-width: 62em) {
+  #main-right > .hero__image {
+    flex: 3;
+    order: 2;
+    background-size: 106%;
+  }
+}
+
+.fs--sm {
+  font-size: 8px;
+  color: white;
+}
+
+footer .h-10 {
+  height: 3em;
+}
+footer .w-10 {
+  width: 3em;
+}
+footer button svg {
+  transition: transform 0.8s;
+}
+footer button svg:hover {
+  transform: scale(1.3);
+}
+footer button .btn {
+  font-size: 10px;
+}
+@media (min-width: 40em) {
+  footer button {
+    font-size: 10px;
+  }
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: linear-gradient(#1c2938 100%, #121a24 100%);
+}
+
+.container__ {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+svg {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  fill: #fff;
+} /*# sourceMappingURL=main.css.map */
